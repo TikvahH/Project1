@@ -1,12 +1,13 @@
 $(function(){
 
-  $("#h1").click(function(e){
-    $("#message").html("click one");
- });
+$("#h1").click(function() {
+    $("#img1").attr("src", "images/image4.jpg");
+});
  $("#h2").click(function(e){
-    $("#message").html("click two");
+    $("#img2").attr("src", "images/image5.jpg");
   });
  $("#h3").click(function(e){
-    $("#message").html("click three");
+  $("#img3").attr("src", "images/image6.jpg");
 });
 });
+
