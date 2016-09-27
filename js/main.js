@@ -1,6 +1,5 @@
 $(function(){
 
-  //Clicking on the Save button will activate Successful Save message
   $("#h1").click(function(e){
     $("#message").html("click one");
  });
